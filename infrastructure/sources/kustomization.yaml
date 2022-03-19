@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
   - knative-operator.yaml
   - knative-serving.yaml
+  - namespace.yaml

@@ -11,6 +11,6 @@ spec:
     name: flux-system
   path: ./infrastructure/knative-serving
   prune: true
-  TargetNamespace: knative-serving
+  targetNamespace: knative-serving
   dependsOn:
     - name: knative-operator
